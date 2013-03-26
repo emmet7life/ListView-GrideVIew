@@ -13,6 +13,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		WebView view=(WebView)findViewById(R.id.webview);
 		view.loadUrl("file///Android_");
+		System.out.println("s");
 	}
 
 	@Override
